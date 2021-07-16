@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link style="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <form action="http://localhost:5000/showitems" method="post">
+        <table>
+            <tr>
+                <td>Item Name</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Item ID</td>
+                <td><input type="text" name="id"></td>
+            </tr>
+            <tr>
+                <td>Quantity</td>
+                <td><input type="text" name="quantity"></td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td><input type="text" name="price"></td>
+            </tr>
+            <tr><td><input type="submit"></td></tr>
+        </table>
+    </form>
+</body>
+</html>
